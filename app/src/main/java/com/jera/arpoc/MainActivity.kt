@@ -1,6 +1,5 @@
 package com.jera.arpoc
 
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -26,27 +25,34 @@ class MainActivity : AppCompatActivity() {
         ModelRenderable.builder()
             .setSource(
                 this,
-                R.raw.portal
+                R.raw.out
             )
+            .setIsFilamentGltf(true)
             .build()
             .thenAccept {
                 customRenderable = it
+                customRenderable?.isShadowCaster = false
+                customRenderable?.isShadowReceiver = false
             }
             .exceptionally {
                 Toast.makeText(this, "Unable to load renderable", Toast.LENGTH_LONG).show()
                 null
             }
-
         val arFragment = supportFragmentManager.findFragmentById(R.id.ux_fragment) as ArFragment
+        arFragment.arSceneView.isLightDirectionUpdateEnabled = false
+        arFragment.arSceneView.isLightEstimationEnabled = false
+        arFragment.arSceneView.planeRenderer.isShadowReceiver = false
         arFragment.setOnTapArPlaneListener { hitResult, plane, motionEvent ->
 
             if (customRenderable == null) {
                 return@setOnTapArPlaneListener
             }
+
             val anchorNode = AnchorNode(hitResult.createAnchor())
             anchorNode.setParent(arFragment.arSceneView.scene)
             TranslatableNode().apply {
                 setParent(anchorNode)
+                addOffset(0f, 2f, -5.2f)
                 renderable = customRenderable
             }
         }
