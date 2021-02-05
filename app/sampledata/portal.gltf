@@ -1,0 +1,430 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5123,
+         "count" : 10473,
+         "max" : [ 1923 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-0-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 3.499500036239624, 3.499500036239624, 4.934999942779541 ],
+         "min" : [ -3.499500036239624, -3.450099945068359, -2.065000057220459 ],
+         "name" : "buffer-0-group-0-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 23088,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 1, 1, 1 ],
+         "min" : [ -0.9568308591842651, -1, -1 ],
+         "name" : "buffer-0-group-0-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -1 ],
+         "name" : "buffer-0-group-0-mesh-0-texcoord",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 20946,
+         "componentType" : 5123,
+         "count" : 27720,
+         "max" : [ 4619 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-1-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 46176,
+         "componentType" : 5126,
+         "count" : 4620,
+         "max" : [ 1.129899978637695, -3.381099939346313, 2.161400079727173 ],
+         "min" : [ -1.129899978637695, -3.493200063705444, -0.001300000003539026 ],
+         "name" : "buffer-0-group-1-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 101616,
+         "componentType" : 5126,
+         "count" : 4620,
+         "max" : [ 0.9999924898147583, 0.9999479651451111, 0.9946120381355286 ],
+         "min" : [ -0.999994695186615, -0.9999714493751526, -0.9943798184394836 ],
+         "name" : "buffer-0-group-1-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 15392,
+         "componentType" : 5126,
+         "count" : 4620,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -1 ],
+         "name" : "buffer-0-group-1-mesh-0-texcoord",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 76386,
+         "componentType" : 5123,
+         "count" : 10473,
+         "max" : [ 1923 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-2-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 157056,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 3.529299974441528, 3.529299974441528, 4.964900016784668 ],
+         "min" : [ -3.529299974441528, -3.479599952697754, -2.094799995422363 ],
+         "name" : "buffer-0-group-2-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 180144,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 0.9568308591842651, 1, 1 ],
+         "min" : [ -1, -1, -1 ],
+         "name" : "buffer-0-group-2-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 52352,
+         "componentType" : 5126,
+         "count" : 1924,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -1 ],
+         "name" : "buffer-0-group-2-mesh-0-texcoord",
+         "type" : "VEC2"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 97332,
+         "byteOffset" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 203232,
+         "byteOffset" : 97332,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 67744,
+         "byteOffset" : 300568,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 368312,
+         "name" : "buffer-0",
+         "uri" : "portal-world.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "GOOGLE_lights_image_based" : {
+         "lights" : [
+            {
+               "intensity" : 0,
+               "pmremTexture" : {
+                  "index" : 2
+               },
+               "rotation" : -180
+            }
+         ]
+      },
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [
+      "GOOGLE_backgrounds",
+      "GOOGLE_lights_image_based",
+      "GOOGLE_camera_settings",
+      "KHR_lights_punctual"
+   ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "NONE"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : true
+      }
+   },
+   "images" : [
+      {
+         "mimeType" : "image/jpeg",
+         "name" : "Material__0-diffuse-image",
+         "uri" : "sphere-inside-map.jpg"
+      },
+      {
+         "mimeType" : "image/jpeg",
+         "name" : "gate_ring-diffuse-image",
+         "uri" : "gate-ring.JPG"
+      },
+      {
+         "uri" : "poly_pmrem_cubeuv_the_sky_is_on_fire.jpg"
+      }
+   ],
+   "materials" : [
+      {
+         "alphaCutoff" : 0.5,
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "emissiveFactor" : [ 0, 0, 0 ],
+         "name" : "Material__0",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 1, 1, 1, 1 ],
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            },
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.9068708419799805
+         }
+      },
+      {
+         "alphaCutoff" : 0.5,
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "emissiveFactor" : [ 0, 0, 0 ],
+         "name" : "gate_ring",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 1, 1, 1, 1 ],
+            "baseColorTexture" : {
+               "index" : 1,
+               "texCoord" : 0
+            },
+            "metallicFactor" : 0,
+            "roughnessFactor" : 1
+         }
+      },
+      {
+         "alphaCutoff" : 0.5,
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "emissiveFactor" : [ 0, 0, 0 ],
+         "name" : "sphere_outside_transparent",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.5881999731063843, 0.5881999731063843, 0.5881999731063843, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.9699476361274719
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 6,
+                  "POSITION" : 5,
+                  "TEXCOORD_0" : 7
+               },
+               "indices" : 4,
+               "material" : 1,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 10,
+                  "POSITION" : 9,
+                  "TEXCOORD_0" : 11
+               },
+               "indices" : 8,
+               "material" : 2,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "rotation" : [ -0.7071067811865475, 0, 0, 0.7071067811865476 ],
+         "translation" : [ -0.01801366227942672, -0.02087579624463852, 1.45269926071167 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.01801366227942672, 0.02087579624463852, -1.45269926071167 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            0.05909243925863684,
+            0.005281542764658763,
+            -0.0003126499797847018,
+            0.9982384941377886
+         ],
+         "translation" : [ 0.05593958767713035, -0.8495660840669549, 8.425673304568335 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -5.988872683716119, 2.99443634185806, 2.99443634185806 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 6.04876141055328 ],
+         "translation" : [ -6.028576797844376, 11.88194078227241, -2.710569087767627 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "name" : "Material__0-diffuse-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      },
+      {
+         "name" : "gate_ring-diffuse-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.9215686274509803, 0.9215686274509803, 0.9215686274509803 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "pivot" : [ -0.01785283898313139, -0.0210143779160008, 1.452296196695912 ]
+            },
+            "GOOGLE_lights_image_based" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ 0.02018461270890444, -0.2155820388341456, 3.338192322785654 ],
+                  "radius" : 5.988872683716119,
+                  "stdev" : 3.020896494608852
+               },
+               "visualCenterPoint" : [ -0.01801366227942672, -0.02087579624463852, 1.45269926071167 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 0.9215686274509803, 0.9215686274509803, 0.9215686274509803 ]
+            }
+         },
+         "name" : "scene-0",
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "Material__0-diffuse-texture",
+         "sampler" : 0,
+         "source" : 0
+      },
+      {
+         "name" : "gate_ring-diffuse-texture",
+         "sampler" : 1,
+         "source" : 1
+      }
+   ]
+}
