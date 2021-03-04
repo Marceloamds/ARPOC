@@ -1,6 +1,7 @@
 package com.jera.arpoc
 
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -23,36 +24,27 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupUi() {
         ModelRenderable.builder()
-            .setSource(
-                this,
-                R.raw.out
-            )
+            .setSource(this, R.raw.tiger)
             .setIsFilamentGltf(true)
             .build()
             .thenAccept {
                 customRenderable = it
-                customRenderable?.isShadowCaster = false
-                customRenderable?.isShadowReceiver = false
             }
             .exceptionally {
                 Toast.makeText(this, "Unable to load renderable", Toast.LENGTH_LONG).show()
                 null
             }
-        val arFragment = supportFragmentManager.findFragmentById(R.id.ux_fragment) as ArFragment
-        arFragment.arSceneView.isLightDirectionUpdateEnabled = false
-        arFragment.arSceneView.isLightEstimationEnabled = false
-        arFragment.arSceneView.planeRenderer.isShadowReceiver = false
-        arFragment.setOnTapArPlaneListener { hitResult, plane, motionEvent ->
 
+        val arFragment = supportFragmentManager.findFragmentById(R.id.ux_fragment) as ArFragment
+        arFragment.setOnTapArPlaneListener { hitResult, plane, motionEvent ->
             if (customRenderable == null) {
                 return@setOnTapArPlaneListener
             }
-
+            binding.linear.visibility = View.GONE
             val anchorNode = AnchorNode(hitResult.createAnchor())
             anchorNode.setParent(arFragment.arSceneView.scene)
             TranslatableNode().apply {
                 setParent(anchorNode)
-                addOffset(0f, 2f, -5.2f)
                 renderable = customRenderable
             }
         }
